@@ -28,7 +28,6 @@ export class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const statesArray = Object.keys(this.state);
     return (
       <>
         <Section title="Please leave feedback">
